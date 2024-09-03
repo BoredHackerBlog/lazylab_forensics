@@ -29,3 +29,12 @@ Lab was ransomed on Aug 24th.
 - Memory dumps were collected after the systems were ransomed
 - Systems were shutdown and rebooted before KAPE collection and artifact collection happened
 - Systems were shutdown and rebooted again before raw evtx files were collected
+
+
+## Files
+- dc1_artifacts.zip - malware and other artifacts from dc1
+- workstation1_artifacts.zip - malware and other artifacts from workstation1
+- dc1_logs.zip - evtx logs from dc1
+- workstation1_logs.zip - evtx logs from workstation1
+- splunk_logs_db.zip - splunk logs. install splunk (free) and add the files to default/db folder. (/defaultdb/db folder. i believe its under /var/lib/splunk maybe?)
+- Memory dumps can be found here: https://github.com/BoredHackerBlog/lazylab_forensics/releases
