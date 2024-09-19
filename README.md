@@ -26,7 +26,7 @@ Lab was ransomed on Aug 24th.
 
 ## Evidence
 - Splunk logs include sysmon logs - install splunk, extract the logs in default db folder.
-- Memory dumps were collected after the systems were ransomed
+- Memory dumps were collected after the systems were ransomed - UPDATE: Memory dumps can't be read by volatility for some reason. You can ignore them.
 - Systems were shutdown and rebooted before KAPE collection and artifact collection happened
 - Systems were shutdown and rebooted again before raw evtx files were collected
 
